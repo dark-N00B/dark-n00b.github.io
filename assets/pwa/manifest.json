@@ -1,0 +1,20 @@
+{
+    "short_name": "N00B",
+    "name": "My Portfolio - darkN00B",
+    "icons": [
+        {
+            "src": "/assets/favicon.ico",
+            "type": "icon/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "/assets/favicon.ico",
+            "type": "icon/ico",
+            "sizes": "32x32"
+        }
+    ],
+    "start_url": "index.html",
+    "background_color": "#000000",
+    "dispaly": "standalone",
+    "theme_color": "#4dbaa8"
+}
