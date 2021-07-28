@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#4dbaa8" />
+  <link rel="manifest" href="manifest.json">
   
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
@@ -779,6 +782,13 @@
   <script src="assets/js/topbar-virtual.js"></script>
 
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
+
+  <script>
+      // if browser support service worker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    };
+  </script>
   
 </body>
 </html>
